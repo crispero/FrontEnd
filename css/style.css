@@ -95,7 +95,7 @@
 {
     font-size: 28px;
     font-family: 'Georgia';
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-style: italic;
     line-height: 1.5;
     
@@ -107,9 +107,9 @@
     padding-left: 4px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(245, 245, 245);
-    font-weight: bold;
-    line-height: 2.625;
+    color: #fff;
+    font-weight: 600;
+    line-height: 42px;
 }
 
 .my_name
@@ -211,8 +211,8 @@
 {
     margin-top: 20px;
     font-size: 22px;
-    font-family: 'OpenSans';
-    color: #333333;
+    font-family: 'OpenSans', sans-serif;
+    color: #333;
     font-weight: bold;
     line-height: 1.455;
 }
