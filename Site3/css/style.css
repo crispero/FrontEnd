@@ -116,7 +116,7 @@
 {
     padding-top: 82px;
 
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 48px;
     color: #333333;
     line-height: 0.875;
@@ -178,7 +178,7 @@
     background-color: #f1f1f1;
 }
 
-.film
+.films
 {
     margin: 0 auto;
     width: 100%;
@@ -187,7 +187,6 @@
 
 .favorite_film
 {
-    margin-left: 160px;
     font-size: 36px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(51, 51, 51);
@@ -196,15 +195,16 @@
     margin-bottom: 34px;
 }
 
-.row
-{
-    margin-left: 160px;
-}
-
 .film_block
 {
     float: left;
     margin-right: 20px;
+}
+
+.it
+{
+    float: right;
+    margin-right: 0px;
 }
 
 .films img
@@ -218,16 +218,15 @@
 {
     margin-top: 20px;
     font-size: 22px;
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #333;
     font-weight: bold;
-    line-height: 1.455;
 }
 
 .films p
 {
     max-width: 270px;
-    margin-top: 15px;
+    margin-top: 17px;
     font-size: 16px;
     font-family: 'Georgia';
     color: rgb(85, 85, 85);
@@ -270,7 +269,7 @@
 {
     margin-top: 42px;
     margin-left: 140px;
-    margin-bottom: 87px;
+    margin-bottom: 90px;
 }
 
 .write_me
@@ -305,14 +304,23 @@
 label
 {
     font-size: 20px;
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(51, 51, 51);
     line-height: 1.6;
+    font-weight: normal;
+}
+
+.form_text_item
+{
+    font-size: 18px; 
+    font-family: 'Open Sans', sans-serif; 
+    color: #555; 
+    line-height: 1.778; 
 }
 
 .required_field
 {
-    margin-left: 10px;
+    margin-left: 5px;
     color: red;
 }
 
@@ -329,10 +337,9 @@ textarea
 {
     width: 100%;
     padding: 12px 11px;
-    color: #555;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    border: 2px solid #a6a6a6;
+    border: 2px solid #c9c9c9;
     border-radius: 3px;
     box-sizing: border-box;
 }
@@ -341,7 +348,14 @@ input[type=text]:hover,
 select:hover,
 textarea:hover
 {
-    color: #a6a6a6;
+    border: 2px solid #a6a6a6; 
+}
+
+input[type=text]:focus,
+select:focus,
+textarea:focus
+{
+    border: 2px solid #15a98c; 
 }
 
 select
@@ -353,7 +367,8 @@ select
 }
 
 select:hover,
-.radio_button_item:hover
+.radio_button_item:hover,
+.button_submit_item:hover
 {
     cursor: pointer;
 }
@@ -362,15 +377,16 @@ textarea
 {
     height: 150px;
     margin-bottom: 25px;
+    resize: none;
 }
 
 .choice_male_item
 {
     font-size: 18px;
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(51, 51, 51);
     font-weight: 400;
- 
+
     margin-top: 5px;
     margin-bottom: 37px;
 }
@@ -383,7 +399,7 @@ textarea
 
 .male_woman_item
 {
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .button_submit_item
