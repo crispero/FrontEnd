@@ -1,0 +1,421 @@
+.menu_buttons_position
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menu_list
+{
+    display: inline-block;
+}
+
+.menu_list a
+{
+    float: left;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Georgia';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 9px 16px 9px 23px;
+}
+
+.menu_list a:hover
+{
+    color: #fff;
+    background: #128b73;
+}
+
+.menu_list i
+{
+    padding-right: 9px;
+}
+
+.header_image
+{
+    margin-top: -5px;
+    width: 100%;
+    height: 400px;
+}
+
+.container
+{
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.left_container
+{
+    float: left;
+    width: 330px;
+    margin-right: 60px;
+}
+
+.my_photo
+{
+    margin-top: -210px;
+    margin-bottom: 42px;
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.film_serial
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: rgb(21, 169, 140);
+    line-height: 1.333;
+    font-weight: bold;
+
+    padding-top: 100px;
+}
+
+.list
+{
+    margin-top: 13px;
+    margin-bottom: 40px;
+    padding-left: 22px;
+    
+    font-family: 'Georgia';
+    font-size: 19px;
+    color: rgb(85, 85, 85);
+    line-height: 1.895;
+}
+
+.right_container
+{
+    float: left;
+    width: 560px;
+}
+
+.quote
+{
+    font-size: 28px;
+    font-family: 'Georgia';
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.5;
+    
+    margin-top: -165px;
+}
+
+.qoute_author_name
+{
+    padding-left: 4px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(245, 245, 245);
+    font-weight: 600;
+    line-height: 2.625;
+}
+
+.my_name
+{
+    padding-top: 82px;
+
+    font-family: 'Open Sans';
+    font-size: 48px;
+    color: #333333;
+    line-height: 0.875;
+    font-weight: bold;
+}
+
+.rectangle
+{
+    padding-top: 32px;
+}
+
+.text
+{
+    font-family: 'Georgia';
+    font-size: 19px;
+    color: rgb(85, 85, 85);
+    line-height: 32px;
+
+    margin-top: 40px;
+}
+
+.hobby
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #333333;
+    line-height: 1.167;
+    font-weight: normal;
+
+    margin-top: 42px;
+    margin-bottom: -25px;
+}
+
+.vk
+{
+    margin-top: 42px;
+}
+
+.my_vk
+{
+    font-family: 'Georgia';
+    font-size: 19px;
+    color: rgb(21, 169, 139);
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.link
+{
+    font-family: 'Georgia';
+    color: rgb(21, 169, 139);
+    text-decoration: underline;
+}
+
+.my_films
+{
+    margin-top: 57px;
+    padding: 35px 0px 5px 0px;
+    background-color: #f1f1f1;
+}
+
+.film
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.favorite_film
+{
+    margin-left: 160px;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 42px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.row
+{
+    margin-left: 160px;
+}
+
+.film_block
+{
+    float: left;
+    margin-right: 20px;
+}
+
+.films img
+{
+    width: 285px;
+    height: 190px;
+    border-radius: 4px;
+}
+
+.films h3
+{
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: 'OpenSans', sans-serif;
+    color: #333;
+    font-weight: bold;
+    line-height: 1.455;
+}
+
+.films p
+{
+    max-width: 270px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Georgia';
+    color: rgb(85, 85, 85);
+    line-height: 28px;
+    font-weight: 400;
+}
+
+
+.all_film
+{
+    text-align: center;
+    margin-top: 62px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+.button
+{
+    padding: 14px 54px;
+    background-color: rgb(21, 169, 140);
+}
+
+.all_film a
+{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Georgia';
+    color: white;
+    line-height: 2;
+    border-radius: 5px;
+}
+
+.notice_me
+{
+    margin: 0 auto;
+    width: 540px;
+}
+
+.write
+{
+    margin-top: 42px;
+    margin-left: 140px;
+    margin-bottom: 87px;
+}
+
+.write_me
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+ 
+.form_line_right
+{
+    border-bottom: 1px solid #c4c4c4; 
+    width: 200px;
+    margin-top: -25px;
+    margin-left: -220px;
+}
+
+.form_line_left
+{
+    border-bottom: 1px solid #c4c4c4; 
+    width: 200px;
+    margin-left: 270px;
+}
+
+.form_container
+{
+    margin-bottom: 25px;
+}
+
+label
+{
+    font-size: 20px;
+    font-family: 'OpenSans', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+.required_field
+{
+    margin-left: 10px;
+    color: red;
+}
+
+input[type=text]:focus,
+select:focus,
+textarea:focus
+{
+    border: 2px solid #15a98c;
+}
+
+input[type=text],
+select,
+textarea
+{
+    width: 100%;
+    padding: 12px 11px;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border: 2px solid #a6a6a6;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type=text]:hover,
+select:hover,
+textarea:hover
+{
+    color: #a6a6a6;
+}
+
+select
+{
+    margin-bottom: 15px;
+    -webkit-appearance: none;
+    background: url(../images/arrow.png) no-repeat;
+    background-position: 97%;
+}
+
+select:hover,
+.radio_button_item:hover
+{
+    cursor: pointer;
+}
+
+textarea
+{
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.choice_male_item
+{
+    font-size: 18px;
+    font-family: 'OpenSans', sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+ 
+    margin-top: 5px;
+    margin-bottom: 37px;
+}
+
+.male_man_item,
+.male_woman_item
+{
+    margin-right: 8px;
+}
+
+.male_woman_item
+{
+    margin-left: 30px;
+}
+
+.button_submit_item
+{
+    font-size: 19px;
+    font-family: 'Georgia';
+    color: white;
+    line-height: 2;
+    border-radius: 3px;
+    padding: 5px 65px;
+    background-color: rgb(21, 169, 140);
+    margin-bottom: 50px;
+}
+
+.copy_right
+{
+    background: #f9f9f9;
+    text-align: center;
+    padding: 18px 0;
+    margin-left: -20px;
+}
+
+.foot
+{
+    font-size: 16px;
+    font-family: 'Georgia';
+    color: rgb(85, 85, 85);
+    line-height: 2;
+    font-weight: 400;
+}
+
+.clearfix
+{
+    clear: both;
+}
