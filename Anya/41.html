@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>41</title>
+</head>
+<body>
+    <script>
+        var s = prompt("Введите строку: ");
+        if (s.length > 10) {
+            s = s.substring(0, 6);
+        } else {
+            for (var i = s.length; i < 12; i++)
+                s += 'o';
+        }
+        alert(s);
+    </script>
+</body>
+</html>

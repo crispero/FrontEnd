@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>189</title>
+</head>
+<body>
+    <script>
+        function randomInteger(min, max) {
+            var rand = min - 0.5 + Math.random() * (max - min + 1)
+            rand = Math.round(rand);
+            return rand;
+        }
+        var n = randomInteger(0, 100)
+        var i = 1;
+        var u;
+        while (i <= 10) {
+             u = prompt("Попытка номер " + i)
+             if (u < n)
+                 alert("Меньше");
+             else
+                 if (u > n)
+                     alert("Больше");
+                 else {
+                    alert("Вы угадали! Это число " + n)
+                    break;
+                 }
+             i += 1;
+        }
+        if (i == 11)
+            alert("Вы не угадали. Это число " + n);
+    </script>
+</body>
+</html>
